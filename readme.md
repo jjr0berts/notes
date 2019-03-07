@@ -10,6 +10,13 @@
 
 ## Setup
 
+####Brew Init
+1. brew install postgresql
+2. brew services start postgresql
+
+
+###Init
+
 1. Run `./setup.sh` to install dependencies.
 2. Run `./init.sh` to initialize the database. It creates `notes` user, and `notes_development` and `notes_test` databases on PostgreSQL running locally.
 3. Run `grunt init` to create users to login the Web app.
